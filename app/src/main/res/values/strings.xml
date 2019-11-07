@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UTS_PAB_17523233</string>
+    <string name="fruit_pedia_title">FRUIT PEDIA</string>
+    <string name="anggur_hitam_title">Anggur Hitam</string>
+    <string name="anggur_hitam_harga">Rp. 30.000/kg</string>
+    <string name="anggur_hitam_beli">Beli</string>
+    <string name="anggur_merah_title">Anggur Merah</string>
+    <string name="anggur_merah_harga">Rp. 40.000/kg</string>
+    <string name="anggur_merah_beli">Beli</string>
+    <string name="apel_fuji_title">Apel Fuji</string>
+    <string name="apel_fuji_harga">Rp. 35.000/kg</string>
+    <string name="apel_fuji_beli">Beli</string>
+    <string name="mangga_title">Mangga</string>
+    <string name="magga_harga">Rp. 20.000/kg</string>
+    <string name="magga_beli">Beli</string>
+    <string name="form_pemesanan">Form Pemesanan:</string>
+    <string name="nama_label">Nama</string>
+    <string name="alamat_label">Alamat</string>
+    <string name="no_telp_label">No. Telp/ Handphone</string>
+    <string name="note_label">Note</string>
+    <string name="cara_pembayaran">Pilih Cara Pembayaran:</string>
+    <string name="transfer_label">Transfer</string>
+    <string name="cod">Cash On Delivery</string>
+    <string name="informasi_harga">Informasi Harga</string>
+    <string name="nama_buah_label">Nama Buah</string>
+    <string name="harga_buah_label">Harga Buah</string>
+    <string name="ketentuan">Ketentuan</string>
+    <string name="ketentuan_content">minimal 1 kg, maksimal 4kg</string>
+    <string name="jumlah_pembelian">Jumlah Pembelian</string>
+    <string name="proses_button">Proses</string>
+    <string name="rupiah">Rp.</string>
+    <string name="detail_pesanan_title">Detail Pesanan</string>
+
+    <string-array name="label_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

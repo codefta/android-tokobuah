@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fruit_pedia_title"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@color/colorSecondary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/anggur_hitam_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/anggur_hitam" />
+
+                <TextView
+                    android:id="@+id/anggur_hitam_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anggur_hitam_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:onClick="anggurHitamDetail" />
+
+                <TextView
+                    android:id="@+id/anggur_hitam_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anggur_hitam_harga"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/anggur_hitam_beli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/anggur_hitam_beli"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="16dp"
+                    android:onClick="anggurHitamOrder"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                >
+
+                <ImageView
+                    android:id="@+id/anggur_merah_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/anggur_merah" />
+
+                <TextView
+                    android:id="@+id/anggur_merah_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anggur_merah_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:onClick="anggurMerahDetail"/>
+
+                <TextView
+                    android:id="@+id/anggur_merah_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anggur_merah_harga"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/anggur_merah_beli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/anggur_merah_beli"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="16dp"
+                    android:onClick="apelAnggurMerahOrder"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                >
+
+                <ImageView
+                    android:id="@+id/apel_fuji_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/apel_fuji" />
+
+                <TextView
+                    android:id="@+id/apel_fuji_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apel_fuji_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:onClick="apelFujiDetail"/>
+
+                <TextView
+                    android:id="@+id/apel_fuji_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apel_fuji_harga"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/apel_fuji_beli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/apel_fuji_beli"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="16dp"
+                    android:onClick="apelFujiOrder"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                >
+
+                <ImageView
+                    android:id="@+id/mangga_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/mangga" />
+
+                <TextView
+                    android:id="@+id/mangga_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mangga_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:onClick="manggaDetail"/>
+
+                <TextView
+                    android:id="@+id/mangga_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/magga_harga"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/mangga_beli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/magga_beli"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="16dp"
+                    android:onClick="manggaOrder"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
